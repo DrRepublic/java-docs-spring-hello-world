@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'aas-lk01-sea-p-ifrsetl-ifrs01'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FF8AC8026E304D2A9A45DC005B4E78C7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_799F4050D82F4C6DAD88BBF608CB93BA }}
           package: '*.jar'
